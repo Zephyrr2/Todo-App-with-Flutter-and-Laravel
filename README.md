@@ -7,8 +7,8 @@ A full-stack Todo App built using **Flutter** for the frontend and **Laravel** f
 ## 📁 Project Structure
 
 Todo-App-with-Flutter-and-Laravel/
-├── todo_app/ # Flutter mobile frontend
-└── todoapp/ # Laravel backend API
+- ├── todo_app/ # Flutter mobile frontend
+- └── todoapp/ # Laravel backend API
 
 ---
 
