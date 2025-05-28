@@ -1,60 +1,75 @@
-# 📝 Todo App with Flutter & Laravel
-
-A full-stack Todo App built using **Flutter** for the frontend and **Laravel** for the backend API.
-
+📝 Todo App with Flutter & Laravel
 ---
 
-## 📁 Project Structure
+## 📋 Deskripsi Aplikasi
+Aplikasi Todo List ini merupakan aplikasi full-stack yang dibangun menggunakan Flutter di sisi frontend dan Laravel untuk backend API. Aplikasi ini memungkinkan pengguna untuk:
 
-Todo-App-with-Flutter-and-Laravel/
-- ├── todo_app/ # Flutter mobile frontend
-- └── todoapp/ # Laravel backend API
+- Menambahkan tugas
+- Menghapus tugas
+- Menandai tugas sebagai selesai
+- Menyimpan data melalui API RESTful
 
----
+## 📱 Halaman-Halaman Aplikasi
+- Halaman Utama: Menampilkan daftar semua tugas
+- Halaman Tambah: Formulir untuk menambahkan tugas
 
-## 🚀 Features
+## 🗄️ Database yang Digunakan
+- MySQL 
 
-- Create, update, delete tasks
-- Mark tasks as completed
-- RESTful API with Laravel
-- Beautiful UI with Flutter
+## 🔗 API (Laravel)
+- GET /api/tasks – Ambil semua tugas
+- POST /api/tasks – Tambah tugas
+- GET /api/tasks/{id} – Ambil tugas berdasarkan ID
+- PUT /api/tasks/{id} – Perbarui tugas
+- DELETE /api/tasks/{id} – Hapus tugas
 
----
+## 🛠️ Software yang Digunakan
+- Flutter (Frontend)
+- Laravel (Backend)
+- MySQL (Database)
 
-## 🛠️ Setup Instructions
-
-### 🔧 Laravel Backend
-
-1. **Navigate to the backend folder**:
+## 🧰 Cara Instalasi
+### ⚙️ Backend (Laravel)
+1. Masuk ke folder backend:
    ```bash
    cd todoapp
 
-2. Configure .env file
+2. Salin .env.example menjadi .env dan atur konfigurasi database.
 
-3. Set up your database in .env, then run:
-    ```bash
-    php artisan migrate
+3. Install dependensi:
+   ```bash
+   composer install
 
-4. Serve the app:
-    ```bash
-    php artisan serve
+3. Jalankan migrasi:
+   ```bash
+   php artisan migrate
 
-The API will be accessible at http://127.0.0.1:8000/api
+4. Jalankan server:
+   ```bash
+   php artisan serve
 
-### 📱 Flutter Frontend
+5. API tersedia di: http://127.0.0.1:8000/api
 
-1. Navigate to the Flutter app folder:
-    ```bash
-    cd todo_app
+## 📱 Frontend (Flutter)
+1. Masuk ke folder frontend:
+   ```bash
+   cd todo_app
 
-2. Get dependencies:
-    ```bash
-    flutter pub get
+2. Install dependensi:
+   ```bash
+   flutter pub get
 
-3. Run the app:
-    ```bash
-    flutter run
+3. Jalankan aplikasi:
+   ```bash
+   flutter run
 
+## ▶️ Cara Menjalankan
+- Pastikan backend Laravel aktif di http://127.0.0.1:8000
+- Jalankan Flutter app di emulator atau perangkat fisik
+- Aplikasi akan menampilkan dan memanipulasi data dari backend secara realtime
 
-## 📷 Videos
+## 🎥 Demo
 https://github.com/user-attachments/assets/cfcb8fbc-7131-4c9c-a30b-2a841f4ce0ac
+
+## 👤 Identitas Pembuat
+# Gilang Arga Pradana
