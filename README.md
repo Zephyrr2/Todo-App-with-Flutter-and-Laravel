@@ -57,4 +57,4 @@ The API will be accessible at http://127.0.0.1:8000/api
 
 
 📷 Screenshots
-<!-- Add your screenshots here -->
+[<!-- Add your screenshots here -->](https://github.com/user-attachments/assets/fe0e0bd3-b669-470b-9b78-cf9c86c7a489)
