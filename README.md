@@ -29,17 +29,13 @@ Todo-App-with-Flutter-and-Laravel/
    ```bash
    cd todoapp
 
-2. Install dependencies:
-    ```bash
-    composer install
+2. Configure .env file
 
-3. Configure .env file
-
-4. Set up your database in .env, then run:
+3. Set up your database in .env, then run:
     ```bash
     php artisan migrate
 
-5. Serve the app:
+4. Serve the app:
     ```bash
     php artisan serve
 
